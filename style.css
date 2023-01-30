@@ -10,7 +10,7 @@ body {
   background-color: #ffbd4a;
 }
 main {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "oswald", Courier, monospace;
     display: flex;
     width: 80%;
     margin-left: auto;
@@ -130,13 +130,15 @@ footer {
     aside {
         position: relative;
         width: 100%;
+        height: auto;
+        padding-bottom: 2%;
     }
     #stage {
         position: relative;
     }
     main {
         flex-wrap: wrap;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+        font-family: "oswald";
         text-align: center;
     }
     ul {
