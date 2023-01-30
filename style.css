@@ -10,7 +10,7 @@ body {
   background-color: #ffbd4a;
 }
 main {
-    font-family: "oswald";
+    font-family: "oswald", 'Courier New', Courier, monospace;
     display: flex;
     width: 80%;
     margin-left: auto;
