@@ -19,6 +19,7 @@ main {
 }
 aside {
     width: 30%;
+    min-width: 200px;
     position: sticky;
     top: 0;
     background-color: rgba(255, 245, 231, 0.7);
@@ -26,6 +27,11 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+#as1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 nav {
     margin-top: 10%;
@@ -101,10 +107,13 @@ footer {
     display: flex;
 }
 .logo {
-    width: 30%;
+    width: 33%;
 }
 .logos {
-   text-align: center;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 10%;
+   padding-right: 15%;
 }
 
 #photo {
@@ -119,6 +128,22 @@ footer {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     
+    h1 {
+     font-size: xx-large;
+    }
+    header {
+        font-size: 20px;
+    }
+    .icone {
+        width: 7%;
+    }
+    #photo {
+        height: auto;
+        width: 33%;
+    }
+    .logos {
+        padding-right: 5%;
+    }
     nav {
         display: none;
     }
@@ -130,11 +155,12 @@ footer {
     aside {
         position: relative;
         width: 100%;
+        padding-bottom: 5%;
         height: auto;
-        padding-bottom: 2%;
     }
     #stage {
         position: relative;
+        font-size: xx-large;
     }
     main {
         flex-wrap: wrap;
