@@ -6,9 +6,14 @@
     margin: 0;
 }
 
+#prenom {
+    font-size: 40px;
+}
+
 body {
   background-color: #ffbd4a;
 }
+
 main {
     font-family: "oswald", Courier, monospace;
     display: flex;
@@ -17,6 +22,12 @@ main {
     margin-right: auto;
     text-align: justify;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 aside {
     width: 30%;
     min-width: 200px;
@@ -28,24 +39,13 @@ aside {
     flex-direction: column;
     justify-content: space-between;
 }
+
 #as1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-nav {
-    margin-top: 10%;
-}
-nav ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    text-shadow: 0.5px 0.5px 1px rgba(1, 1, 1, 0.5);
-}
+
 #stage {
     text-align: center;
     position: sticky;
@@ -54,12 +54,14 @@ a:hover {
     border-bottom: 15px solid #ee495d;
     padding: 1%;
 }
+
 section {
     align-self: flex-start;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
+
 article {
     padding: 5vh;
     margin: 5vh;
@@ -73,12 +75,15 @@ article {
     padding: 2%;
     margin: 3%;
 }
+
 .art p {
     padding: 2%;
 }
+
 h2, h3 {
     color: #ee495d;
 }
+
 .icone {
     width: 20px;
     padding-right: 5%;
@@ -90,6 +95,7 @@ header {
     justify-self: flex-start;
     padding-top: 1vh;
 }
+
 footer {
     text-align: center;
     z-index: 10;
@@ -100,15 +106,19 @@ footer {
     align-self: flex-end;
     width: 100%;
 }
+
 .tel {
     display: none;
 }
+
 #pro {
     display: flex;
 }
+
 .logo {
     width: 33%;
 }
+
 .logos {
    display: flex;
    justify-content: space-around;
@@ -117,7 +127,7 @@ footer {
 }
 
 #photo {
-    height: 75px;
+    height: 100px;
     border-radius: 50%;
 }
 
@@ -131,33 +141,37 @@ footer {
     h1 {
      font-size: xx-large;
     }
+
     header {
-        font-size: 20px;
+        font-size: 30px;
     }
+    
     .icone {
         width: 7%;
     }
+
     #photo {
         height: auto;
         width: 33%;
     }
+
     .logos {
         padding-right: 5%;
     }
-    nav {
-        display: none;
-    }
+
     .tel {
         display: block;
         position: sticky;
         bottom: 0;
     }
+
     aside {
         position: relative;
         width: 100%;
         padding-bottom: 5%;
         height: auto;
     }
+
     #stage {
         position: relative;
         font-size: xx-large;
@@ -167,21 +181,26 @@ footer {
         font-family: "oswald";
         text-align: center;
     }
+
     ul {
         text-align: left;
     }
+
     .ordi {
         display: none;
     }
+
     section {
         width: 100%;
         margin-left :auto;
         margin-right: auto;
     }
+
     article {
         margin-left: auto;
         margin-right: auto;
     }
+    
     .art {
         margin-left: auto;
         margin-right: auto;
